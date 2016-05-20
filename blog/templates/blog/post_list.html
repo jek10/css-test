@@ -7,8 +7,8 @@
                 {{ post.published_date }}
             </div>
             <p>{{ post.text|safe|truncatewords:"50"|linebreaks }}</p>
-            
-      <a href="{% url 'admin:index' %}">read more</a>
+      		<a href="{% url 'admin:index' %}">read more</a>
         </div>
     {% endfor %}
 {% endblock %}
+
